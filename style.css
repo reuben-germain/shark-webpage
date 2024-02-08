@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #158CC0;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    h2 {
+        color: #158CC0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        color: #8E3131;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        color: red;
+    }
+}
+
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+p {
+    margin: 10px;
+}
+
+
+#leftside {
+    float: left;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#rightside {
+    float: right;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 712px) {
+
+    #leftside {
+        width: 95%;
+        padding: 10px;
+        float: left;
+    }
+
+    #rightside {
+        width: 95%;
+        padding: 10px;
+        clear: both;
+    }
+}
+
+#bottomcontainer {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#pagefooter {
+
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    background-color: #158CC0;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+#video {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+video {
+    width: 90%
+}
+
+#topdiv {
+    min-width: 406px;
+    background-color: #158CC0;
+    height: 35px;
+    width: 100%;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+#topdiv a {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Make top nav fixed. 
+	I adjust margin on #heading-text since setting .topdiv to fixed, effects the flow of the page.*/
+
+#topdiv {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+
+#heading-text {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+#heading-text h2 {
+    font-size: 3em;
+}
+
+
+/* Set the attachment to 'fixed' for simple parallax scrolling. */
+#shark-div {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 500px;
+    /*height: 80vh;*/
+    width: 100%;
+    background: url(shark-attacks.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom bottom;
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+    background-size: cover;
+    /*border-radius: 25px;*/
+}
+
+#sharksemester {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-family: 'Creepster', cursive;
+    font-size: 9vw;
+    opacity: 0.7;
+    letter-spacing: 20px;
+    /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
+    text-shadow: 2px 2px #000000;
+}
+
+
+#css-table {
+    display: table;
+    border: 1px dotted rgb(217, 237, 249);
+    background-color: rgba(217, 237, 249, .4);
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+
+#above-video li {
+    list-style-type: square;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-left: 35px;
+}
