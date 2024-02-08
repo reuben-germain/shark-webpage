@@ -1,0 +1,1 @@
+![](sc-shark-full.png)
