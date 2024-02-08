@@ -1,1 +1,1 @@
-![](sc-shark-full.png)
+![](sc-shark-nesthub.png)
