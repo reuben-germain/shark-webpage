@@ -8,6 +8,7 @@ body {
     background-color: #ffffff;
 }
 
+/* Navbar */
 nav {
     min-width: 406px;
     background-color: #158CC0;
@@ -44,6 +45,7 @@ main {
     margin: 100px auto 50px auto;
 }
 
+/* Header Section */
 header {
     text-align: center;
 }
@@ -65,12 +67,44 @@ header h2 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     h2 {
         color: red;
     }
 }
 
+/* Hero Section */
+/* Set the attachment to 'fixed' for simple parallax scrolling. */
+#hero {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 500px;
+    /*height: 80vh;*/
+    width: 100%;
+    background: url(shark-attacks.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom bottom;
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+    background-size: cover;
+    /*border-radius: 25px;*/
+}
+
+#shark-hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-family: "Creepster", cursive;
+    font-size: 9vw;
+    opacity: 0.7;
+    letter-spacing: 20px;
+    /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
+    text-shadow: 2px 2px #000000;
+}
 
 li {
     list-style-type: none;
@@ -159,44 +193,8 @@ video {
 }
 
 
-/* Make top nav fixed. 
-	I adjust margin on #heading-text since setting .topdiv to fixed, effects the flow of the page.*/
 
-
-
-
-
-/* Set the attachment to 'fixed' for simple parallax scrolling. */
-#shark-div {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    height: 500px;
-    /*height: 80vh;*/
-    width: 100%;
-    background: url(shark-attacks.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom bottom;
-    /*background-position: center center;*/
-    /*background-attachment: fixed;*/
-    background-attachment: scroll;
-    background-size: cover;
-    /*border-radius: 25px;*/
-}
-
-#sharksemester {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #ffffff;
-    font-family: 'Creepster', cursive;
-    font-size: 9vw;
-    opacity: 0.7;
-    letter-spacing: 20px;
-    /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
-    text-shadow: 2px 2px #000000;
-}
+/**/
 
 .container {
     display: grid;
