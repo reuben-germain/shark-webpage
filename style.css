@@ -186,9 +186,9 @@ video {
     text-shadow: 2px 2px #000000;
 }
 
-
-#css-table {
-    display: table;
+/*
+.container {
+    display: grid;
     border: 1px dotted rgb(217, 237, 249);
     background-color: rgba(217, 237, 249, .4);
     width: 90%;
@@ -199,18 +199,35 @@ video {
     padding: 1em;
     clear: both;
 }
+*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border: 2px dotted rgb(217, 237, 249);
+    background-color: rgba(217, 237, 249, .4);
+    margin: 50px auto 50px auto;
+    padding: 1em;
+    clear: both;
+  }
+
+  .txt-container {
+    grid-column: 1;
+    background-color: lightblue;
+  }
+
 
 .img-container {
-    text-align: center;
+    grid-column: 2;
 }
 
 .img-container img {
     max-width: 100%; /* Set the maximum width to 100% */
     height: auto; /* Allow the height to adjust proportionally */
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 2em auto; /* Center the image horizontally */
+    margin: 2.5em auto; /* Center the image horizontally */
     border-radius: 10%;
-    width: 85%;
+    width: 80%;
 }
 
 
