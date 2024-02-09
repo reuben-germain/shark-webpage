@@ -15,6 +15,9 @@ nav {
     width: 100%;
     padding-top: 15px;
     color: #ffffff;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
 }
 
 nav a {
@@ -148,11 +151,6 @@ video {
 /* Make top nav fixed. 
 	I adjust margin on #heading-text since setting .topdiv to fixed, effects the flow of the page.*/
 
-#topdiv {
-    position: fixed;
-    top: 0px;
-    z-index: 10;
-}
 
 
 #heading-text {
