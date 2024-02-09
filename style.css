@@ -37,9 +37,20 @@ nav a {
     padding-right: 20px;
 }
 
-h2 {
-    color: #158CC0;
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 100px auto 50px auto;
+}
+
+header {
     text-align: center;
+}
+
+header h2 {
+    color: #158CC0;
+    font-size: 3em;
 }
 
 @media screen and (max-width: 900px) {
@@ -153,15 +164,6 @@ video {
 
 
 
-#heading-text {
-
-    text-align: center;
-    margin-top: 50px;
-}
-
-#heading-text h2 {
-    font-size: 3em;
-}
 
 
 /* Set the attachment to 'fixed' for simple parallax scrolling. */
