@@ -186,20 +186,6 @@ video {
     text-shadow: 2px 2px #000000;
 }
 
-/*
-.container {
-    display: grid;
-    border: 1px dotted rgb(217, 237, 249);
-    background-color: rgba(217, 237, 249, .4);
-    width: 90%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    clear: both;
-}
-*/
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
