@@ -111,6 +111,10 @@ header h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
   }
 
   #leftside, #rightside {
@@ -120,49 +124,42 @@ header h2 {
     box-sizing: border-box;
   }
 
+  #leftside h2 {
+    color: #158CC0;
+    font-size: 2em;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  #rightside h2 {
+    color: #158CC0;
+    font-size: 2em;
+  }
+
+  ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    padding-left: 25px;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    #leftside, #rightside {
+      width: 90%;
+    }
+
 
 
 
 
 /*
-li {
-    list-style-type: none;
-    margin-bottom: 5px;
-    padding-left: 25px;
-}
-
-ol li {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
-p {
-    margin: 10px;
-}
-
-
-#leftside {
-    float: left;
-    width: 45%;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-#rightside {
-    float: right;
-    width: 45%;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-ol {
-    margin-top: 0.6em;
-}
-
-.bold {
-    font-weight: bold;
-}
-*/
-
 @media screen and (max-width: 712px) {
 
     #leftside {
@@ -185,6 +182,13 @@ ol {
     margin-right: auto;
     margin-top: 50px;
 }
+*/
+
+
+
+
+
+
 
 #pagefooter {
 
@@ -251,4 +255,4 @@ video {
     margin-bottom: 5px;
     padding-left: 10px;
     margin-left: 35px;
-}
+}}
