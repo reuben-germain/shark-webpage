@@ -161,17 +161,53 @@ ol li {
 
 /* Staff Section */
 
+#staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
 
+#text-container {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
 
+.img-container{
+    width: 48%;
+}
 
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* Ensure the image is displayed as a block element */
+    margin: 2.5em auto;
+    /* Center the image horizontally */
+    border-radius: 10%;
+    width: 80%;
+}
    
+@media (max-width: 768px) {
+    #staff-container {
+        width: 90%;
+        /* Adjust container width for smaller screens */
+    }
+
+    #text-container,
+    .img-container {
+        width: 100%;
+        /* Make both containers full width on smaller screens */
+    }
+}
 
 
 
-
-
-
-    #pagefooter {
+/*#pagefooter {
 
         width: 100%;
         height: 40px;
@@ -197,48 +233,9 @@ ol li {
         width: 90%
     }
 
-
-
-    /**/
-
-    .container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        border: 2px dotted rgb(217, 237, 249);
-        background-color: rgba(217, 237, 249, .4);
-        margin: 50px auto 50px auto;
-        padding: 1em;
-        clear: both;
-    }
-
-    .txt-container {
-        grid-column: 1;
-        background-color: lightblue;
-    }
-
-    .img-container {
-        grid-column: 2;
-    }
-
-    .img-container img {
-        max-width: 100%;
-        /* Set the maximum width to 100% */
-        height: auto;
-        /* Allow the height to adjust proportionally */
-        display: block;
-        /* Ensure the image is displayed as a block element */
-        margin: 2.5em auto;
-        /* Center the image horizontally */
-        border-radius: 10%;
-        width: 80%;
-    }
-
-
     #above-video li {
         list-style-type: square;
         margin-bottom: 5px;
         padding-left: 10px;
         margin-left: 35px;
-    }
-}
+    }*/}
