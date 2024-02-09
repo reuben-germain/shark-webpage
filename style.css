@@ -106,6 +106,25 @@ header h2 {
     text-shadow: 2px 2px #000000;
 }
 
+/* Section */
+#bottomcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #leftside, #rightside {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+/*
 li {
     list-style-type: none;
     margin-bottom: 5px;
@@ -142,6 +161,7 @@ ol {
 .bold {
     font-weight: bold;
 }
+*/
 
 @media screen and (max-width: 712px) {
 
