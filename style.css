@@ -38,6 +38,10 @@ li {
     padding-left: 25px;
 }
 
+ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
 p {
     margin: 10px;
 }
@@ -55,6 +59,14 @@ p {
     width: 45%;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+ol {
+    margin-top: 0.6em;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 @media screen and (max-width: 712px) {
@@ -179,12 +191,26 @@ video {
     display: table;
     border: 1px dotted rgb(217, 237, 249);
     background-color: rgba(217, 237, 249, .4);
-    width: 80%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1em;
     clear: both;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto; /* Allow the height to adjust proportionally */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 2em auto; /* Center the image horizontally */
+    border-radius: 10%;
+    width: 85%;
 }
 
 
