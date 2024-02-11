@@ -71,7 +71,7 @@ header p {
     background-image: url(shark-attacks.jpg);
     background-repeat: no-repeat;
     background-position: bottom bottom;
-    background-attachment: scroll;
+    background-attachment: fixed;
     /* Set the attachment to 'fixed' for simple parallax scrolling. */
     background-size: cover;
 }
@@ -159,6 +159,10 @@ hr {
     margin-left: 10%;
     margin-right: 10%;
     border: 5px solid #158CC0;
+}
+
+#last-hr {
+    margin-top: 100px;
 }
 
 /* Video Section */
