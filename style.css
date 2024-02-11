@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: monospace 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #ffffff;
 }
 
@@ -16,6 +16,7 @@ nav {
     height: 35px;
     width: 100%;
     padding-top: 15px;
+    padding-bottom: 50px;
     color: #ffffff;
     position: fixed;
     top: 0;
@@ -48,11 +49,17 @@ main {
 /* Header Section */
 header {
     text-align: center;
+    font-family: monospace;
 }
 
 header h2 {
     color: #158CC0;
     font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 20px;
 }
 
 /* Hero Section */
@@ -64,6 +71,8 @@ header h2 {
     background-image: url(shark-attacks.jpg);
     background-repeat: no-repeat;
     background-position: bottom bottom;
+    background-attachment: scroll;
+    /* Set the attachment to 'fixed' for simple parallax scrolling. */
     background-size: cover;
 }
 
@@ -76,27 +85,41 @@ header h2 {
     font-size: 9vw;
     opacity: 0.7;
     letter-spacing: 20px;
+    /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
     text-shadow: 2px 2px #000000;
 }
 
 /* Info Section */
-.info-container, #info-container {
+.info-container,
+#info-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: monospace, 'Open Sans', sans-serif;
     width: 80%;
-    margin: 50px auto 20px auto;
+    margin: 50px auto 50px auto;
     box-sizing: border-box;
 }
 
-.leftside, .rightside, #leftside, #rightside, #leftside2, #rightside2 {
+#info-container {
+    background-color: rgba(217, 237, 249, .4);
+}
+
+.leftside,
+.rightside,
+#leftside,
+#rightside,
+#leftside2,
+#rightside2 {
     width: 48%;
     margin-bottom: 20px;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.leftside h2, .rightside h2, #leftside h2 {
+.leftside h2,
+.rightside h2,
+#leftside h2 {
     color: #158CC0;
     font-size: 2em;
     margin-bottom: 15px;
@@ -120,7 +143,8 @@ img {
     border-radius: 60px;
 }
 
-img, #reuben {
+img,
+#reuben {
     margin-bottom: 20px;
 }
 
@@ -130,12 +154,20 @@ img, #reuben {
     align-items: center;
 }
 
+hr {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid #158CC0;
+}
+
 /* Video Section */
 #video {
     width: 100%;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 15vh;
+    font-family: monospace, 'Open Sans', sans-serif;
 }
 
 video {
@@ -152,25 +184,38 @@ footer {
     text-align: center;
     color: #ffffff;
     padding-top: 15px;
+    text-transform: capitalize;
 }
 
 /* Media Queries */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .info-container, #info-container {
+
+    .info-container,
+    #info-container {
         flex-direction: row;
     }
 
-    .leftside, .rightside, #leftside, #rightside {
+    .leftside,
+    .rightside,
+    #leftside,
+    #rightside {
         width: 48%;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .info-container, #info-container {
+
+    .info-container,
+    #info-container {
         flex-direction: column;
     }
 
-    .leftside, .rightside, #leftside, #rightside, #leftside2, #rightside2 {
+    .leftside,
+    .rightside,
+    #leftside,
+    #rightside,
+    #leftside2,
+    #rightside2 {
         width: 100%;
     }
 }
