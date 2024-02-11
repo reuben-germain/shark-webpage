@@ -219,3 +219,14 @@ footer {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 430px) {
+    #left,
+    #right {
+        font-size: .8em;
+    }
+
+    #right {
+        margin-top: 3px;
+    }
+}
