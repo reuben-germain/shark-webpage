@@ -103,6 +103,10 @@ header h2 {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #rightside {
     display: flex;
     justify-content: center;
