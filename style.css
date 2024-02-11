@@ -81,7 +81,7 @@ header p {
     top: 50%;
     transform: translateY(-50%);
     color: #ffffff;
-    font-family: "Creepster", cursive;
+    font-family: 'Creepster', cursive;
     font-size: 9vw;
     opacity: 0.7;
     letter-spacing: 20px;
