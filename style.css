@@ -120,6 +120,10 @@ img {
     border-radius: 60px;
 }
 
+img, #reuben {
+    margin-bottom: 20px;
+}
+
 #leftside2 {
     display: flex;
     justify-content: center;
