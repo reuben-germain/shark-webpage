@@ -122,12 +122,26 @@ header p {
 #leftside h2 {
     color: #158CC0;
     font-size: 2em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+.rightside li {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+#leftside p {
+    margin-bottom: 20px;
+}
+
+#leftside span {
+    background-color: yellow;
 }
 
 #rightside {
@@ -135,6 +149,13 @@ header p {
     justify-content: center;
     align-items: center;
     border-bottom: 4px solid #158CC0;
+}
+#rightside2 p {
+    margin-bottom: 20px;
+}
+
+#rightside2 span {
+background-color: yellow;    
 }
 
 img {
