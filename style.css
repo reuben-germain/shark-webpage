@@ -70,8 +70,8 @@ header p {
     width: 100%;
     background-image: url(shark-attacks.jpg);
     background-repeat: no-repeat;
-    background-position: bottom bottom;
-    background-attachment: fixed;
+    background-position: top;
+    background-attachment: scroll;
     /* Set the attachment to 'fixed' for simple parallax scrolling. */
     background-size: cover;
 }
@@ -150,12 +150,13 @@ header p {
     align-items: center;
     border-bottom: 4px solid #158CC0;
 }
+
 #rightside2 p {
     margin-bottom: 20px;
 }
 
 #rightside2 span {
-background-color: yellow;    
+    background-color: yellow;
 }
 
 img {
@@ -246,6 +247,7 @@ footer {
 }
 
 @media only screen and (max-width: 430px) {
+
     #left,
     #right {
         font-size: .8em;
