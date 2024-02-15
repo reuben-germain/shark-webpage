@@ -7,4 +7,4 @@
 ###### The grey rectangle shadow underneath the 'SHARK SEMESTER' image of this Readme does **NOT** show on the webpage, and only shows on this readme image as a result of taking a screenshot of the webpage.
 
 ##### Please *click the link* in the **About** section of this repository to view webpage, thank - cheerio!!!
-![](sc-shark-nesthub.png)
+![](sc-shark-nesthub.jpeg)
