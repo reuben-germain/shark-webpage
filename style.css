@@ -261,4 +261,9 @@ footer {
     #right {
         margin-top: 3px;
     }
+
+    #hero {
+        width: 100%;
+        height: auto;
+    }
 }
