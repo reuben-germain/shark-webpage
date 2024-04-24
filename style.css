@@ -66,7 +66,7 @@ header p {
 #hero {
     margin-top: 50px;
     text-align: center;
-    height: 500px;
+    height: 31.25em;
     max-width: 100%;
     background-image: url(shark-attacks.jpg);
     background-repeat: no-repeat;
@@ -243,6 +243,11 @@ footer {
     #leftside2,
     #rightside2 {
         width: 100%;
+    }
+
+    #hero {
+        width: 90%;
+        height: 400px;
     }
 }
 
