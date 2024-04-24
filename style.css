@@ -67,7 +67,7 @@ header p {
     margin-top: 50px;
     text-align: center;
     height: 500px;
-    width: 100%;
+    max-width: 100%;
     background-image: url(shark-attacks.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -189,7 +189,7 @@ hr {
 
 /* Video Section */
 #video {
-    width: 100%;
+    max-width: 100%;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 15vh;
@@ -197,7 +197,7 @@ hr {
 }
 
 video {
-    width: 80%;
+    max-width: 80%;
 }
 
 /* Footer */
