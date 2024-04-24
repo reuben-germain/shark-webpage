@@ -11,12 +11,12 @@ body {
 
 /* Navbar */
 nav {
-    min-width: 406px;
+    min-width: 25.375em;
     background-color: #158CC0;
-    height: 35px;
+    height: 2.1875em;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 0.9375em;
+    padding-bottom: 3.125em;
     color: #ffffff;
     position: fixed;
     top: 0;
@@ -25,25 +25,25 @@ nav {
 
 nav a {
     color: #ffffff;
-    padding: 15px;
+    padding: 0.9375em;
     text-decoration: none;
 }
 
 #left {
-    padding-left: 20px;
+    padding-left: 1.25em;
     font-size: 1em;
-    letter-spacing: 2px;
+    letter-spacing: 0.125em;
 }
 
 #right {
     float: right;
-    padding-right: 20px;
+    padding-right: 1.25em;
 }
 
 /* Main content */
 main {
     width: 100%;
-    margin: 100px auto 50px auto;
+    margin: 6.25em auto 3.125em auto;
 }
 
 /* Header Section */
@@ -59,12 +59,12 @@ header h2 {
 
 header p {
     font-size: 1.2em;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 /* Hero Section */
 #hero {
-    margin-top: 50px;
+    margin-top: 3.125em;
     text-align: center;
     height: 31.25em;
     max-width: 100%;
@@ -84,7 +84,7 @@ header p {
     font-family: 'Creepster', cursive;
     font-size: 9vw;
     opacity: 0.7;
-    letter-spacing: 20px;
+    letter-spacing: 1.25em;
     /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
     text-shadow: 2px 2px #000000;
 }
@@ -97,7 +97,7 @@ header p {
     justify-content: space-between;
     font-family: monospace, 'Open Sans', sans-serif;
     width: 80%;
-    margin: 50px auto 50px auto;
+    margin: 3.125em auto 3.125em auto;
     box-sizing: border-box;
 }
 
@@ -112,8 +112,8 @@ header p {
 #leftside2,
 #rightside2 {
     width: 48%;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 1.25em;
+    padding: 0.625em;
     box-sizing: border-box;
 }
 
@@ -122,14 +122,14 @@ header p {
 #leftside h2 {
     color: #158CC0;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     text-align: center;
 }
 
 .rightside li {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .bold {
@@ -137,7 +137,7 @@ header p {
 }
 
 #leftside p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 #leftside span {
@@ -148,11 +148,11 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 4px solid #158CC0;
+    border-bottom: 0.25em solid #158CC0;
 }
 
 #rightside2 p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 #rightside2 span {
@@ -162,12 +162,12 @@ header p {
 img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 60px;
+    border-radius: 3.75em;
 }
 
 img,
 #reuben {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 #leftside2 {
@@ -180,17 +180,17 @@ hr {
 
     margin-left: 10%;
     margin-right: 10%;
-    border: 5px solid #158CC0;
+    border: 0.3125em solid #158CC0;
 }
 
 #last-hr {
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 /* Video Section */
 #video {
     max-width: 100%;
-    margin-top: 100px;
+    margin-top: 6.25em;
     text-align: center;
     margin-bottom: 15vh;
     font-family: monospace, 'Open Sans', sans-serif;
@@ -203,13 +203,13 @@ video {
 /* Footer */
 footer {
     width: 100%;
-    height: 40px;
+    height: 2.5em;
     margin: 0 auto;
     clear: both;
     background-color: #158CC0;
     text-align: center;
     color: #ffffff;
-    padding-top: 15px;
+    padding-top: 0.9375em;
     text-transform: capitalize;
 }
 
